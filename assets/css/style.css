@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.lobster-font{
+    font-family: 'Lobster', cursive;
+}
+
+.logo-text{
+    font-size: 2rem;
+}
+
+.carousel-indicators{
+    position: relative;
+}
+  
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top : 3rem
+}
+
+.carousel-indicators li.active {
+    background-color: black;
+    opacity: .5;
+}
+
+#subscribe div.container-fluid{
+    background-color: #DC3545;
+}
+
+
+
+
+
