@@ -1,6 +1,10 @@
 body{
     padding: 0;
     margin: 0;
+    border: 0;
+}
+
+body * {
     font-family: 'Cabin', sans-serif;
 }
 
@@ -11,6 +15,16 @@ body{
 .logo-text{
     font-size: 2rem;
 }
+
+h1,h2,h3 .subtitle{
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+
 
 .carousel-indicators{
     position: relative;
@@ -29,9 +43,6 @@ body{
     opacity: .5;
 }
 
-#subscribe div.container-fluid{
-    background-color: #DC3545;
-}
 
 
 
